@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+   
+
+  <link rel="icon"  type="image/x-icon" href="images\logo.png">
+
+
+
+     <!--google fint icons-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+     rel="stylesheet">
+
+    <!--Local css file-->
+<link rel="stylesheet" href="./stylesheet/style.css">
+<script src="./scripts/script.js"></script>
+
+</head>
+<body>
+    <section class="landing">
+        <header>
+            <div>
+                <h1>
+                   <b><u>Abdul</u><span class="landingname"><i><u>Sheh</u></i></span></b>
+                </h1>
+            </div>
+            <nav id="navigation">
+             <!--class="navbar">-->
+                 <a href="../index.html">home</a>
+                 <a href="#introduction_id">about</a>
+                 <a href="mailto:tcook@apple.com">contact</a>
+                 <span class="close_navbar" onclick="closeNavigation()">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 5L4.99998 19M5.00001 5L19 19"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                 </span>
+            </nav>
+
+            <span class="open_navbar" onclick="openNavigation()">
+               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M4 17H20M4 12H20M4 7H20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+            </span>
+        </header>
+
+        <main>
+            <div  class="home">
+                <h1 class="hero-text">
+                    Hi...!<br>I'am Steve Jobs
+                </h1>
+            </div>
+
+            <div class="image">
+            <!-- <picture>
+            <img src="/images/photo_2023-01-31_23-41-24_usman.jpg">
+            </picture> -->
+                <picture>
+                    <source media="(max-width:768px)" srcset="../images/photo_2023-01-31_23-41-24_usman.jpg">
+                    <img src="images\k9ei6p7.jpg" alt="Steve">
+                </picture>
+            </div>
+            
+        </main>
+    </section>
+<!--Home Section End-->
+
+<!-- introduction/ Education section start........ -->
+
+    <section class="introduction" id="introduction_id">
+        <main class="introduction-container">
+            <div class="single-container">
+                <h1>introduction</h1>
+                <p>Steven Paul "Steve" Jobs (February 24, 1955 – October 5, 2011) was an American businessman, investor and co-founder 
+                    and CEO of Apple Inc. He was the Chief Executive Officer (CEO) of Pixar Animation Studios until it was bought by The Walt 
+                    Disney Company. He was the largest shareholder at Disney and a member of Disney's Board of Directors. He was seen as a leading 
+                    figure in both the computer and entertainment industries. In August 2011, Jobs resigned, and was appointed Chairman of Apple. 
+                    He served in that position until he died, at the age of 56, on October 5, 2011 from complications of pancreatitis related to 
+                    type 1 diabetes and metastatic insulinoma. Steve Jobs had type 1 diabetes as a child and had problems with insulin when he died.
+                <a href="https://www.youtube.com/watch?v=s4pVFLUlx8g" target="_blank">watch my video introduction.</a>
+                </p>
+            </div>
+            <div class="single-container-education">
+                <h1>Education</h1> 
+                <p><b>Reed College in Portland</b></p>
+                <p class="education-section">
+                    Jobs was born in San Francisco in 1955 to two University of Wisconsin graduate students who gave him up for adoption. 
+                    His adoptive parents, Clara and Paul Jobs, lived in Mountain View. Jobs and his father would work on electronics in the 
+                    family garage, and as a teen, Jobs spent his free time at Hewlett-Packard, where that he befriended computer club guru Steve 
+                    Wozniak. After high school, Jobs enrolled at Reed College in Portland, but he dropped out after six months, though he later attended 
+                    De Anza College over two semesters. Jobs and Wozniak conceived a series of user-friendly personal computers.   
+                </p>
+            </div>
+        </main>
+    </section>
+<!-- introduction/ Education section ends........ -->
+
+<!-- Experiences/intership,langauge/Technologies and skills -->
+<section class="experience">
+    <main class="experience-container">
+        <div class="single-experience-container" id="experience_id">
+            <h1>Experiences/intership</h1><br>
+            <p>
+                Jobs was a Silicon Valley businessman. He was most famous for his work 
+                with the company Apple Computer Inc, The company started with the release of 
+                the Apple I in 1976.Together with Apple co-founder Steve Wozniak, Jobs helped make the 
+                idea of the personal computer popular in the late 1970s. In the early 1980s, while still 
+                at Apple, Jobs was one of the first people to see the potential of using a mouse to control things on a computer screen.
+            </p>
+        </div>
+        <div class="single-experience-container">
+            <h1 id="expertise1">Steps</h1><br>
+            <p>
+                <ul type="none">
+                    <li>iPhones</li><br>
+                    <li>iPad</li><br>
+                    <li>MacBook</li><br>
+                    <li>iMac</li><br>
+                    <li>Apple TV</li>
+                </ul>
+            </p>
+        </div>
+        <div class="single-experience-container">
+            <h1 id="activities2">Activities</h1><br>
+            <p>
+                <ul type="none">
+                <li><a href="https://www.apple.com/in/iphone/" target="_blank">iPhone</a></li><br>
+                <li><a href="https://www.apple.com/in/ipad/" target="_blank">iPad</a></li><br>
+                <li><a href="https://www.apple.com/in/macbook-pro/" target="_blank">MacBook</a></li><br>
+                <li><a href="https://www.apple.com/in/imac/" target="_blank">iMac</a></li><br>
+                <li><a href="https://www.apple.com/in/apple-tv-4k/" target="_blank">Apple TV</a></li>
+                </ul>
+            </p>
+        </div>
+    </main>
+</section>
+<!-- Experiences/intership,langauge/Technologies and skills ends -->
+
+<!-- langauge and certification start -->
+
+<section class="certification" id="certification_id"> 
+    <main class="certification-container">
+        <div class="single-certification-container">
+            <h1>Journey</h1><br>
+            <img src="images\started.jpg" alt="Step-1"><br><br>
+            <p>
+                The knowledge that Woz gathered at the Homebrew meetings, as well as his exceptional talent, allowed him to 
+                build his own computer board — simply because he wanted a personal computer for himself. Steve Jobs took interest, 
+                and he quickly understood that his friend's brilliant invention could be sold to software hobbyists, who wanted to 
+                write software without the hassle of assembling a computer kit. Jobs convinced Wozniak to start a company for that 
+                purpose: Apple Computer was born on April 1, 1976.
+            </p><br><br>
+           <img src="images\stagoine.jpg" alt="1st iPode"><br><br>
+           <p>
+            iPod made Steve Jobs realize that Apple could become the greatest consumer electronics company on the planet. 
+            Around 2003, he started a secret project to develop a computer tablet. But in 2004-2005, he realized that the 
+            technology that had been developed for this tablet —including a revolutionary touch-screen technology— could also 
+            be used in a mobile phone, which was even more appealing. After two more years of development, iPhone was introduced at 
+            Macworld on January 9, 2007. This keynote is often considered the pinnacle of Steve Jobs' career.
+            </p><br>
+            <img src="images\health.jpg" alt="Signing off"><br><br>
+            <p>
+                In late 2003, he had been diagnosed with pancreatic cancer of a rare kind, that could potentially be cured by surgery. 
+                However, against everyone's advice, he refused to have the surgery for nine long months. Instead, true to the ideals of 
+                his youth, he tried alternative diets and treatments, including acupuncture and seeing a psychic. Only in July 2004 did 
+                he agree to have the surgery. He looked healthy for the next five years, and spoke publicly of being 'cured' of cancer at 
+                his famous Stanford commencement speech in 2005.
+            </p><br><br>
+            <img src="images\office.jpg" alt="Now.."><br><br>
+            <P>
+                Apple Inc. is an American multinational technology company headquartered in Cupertino, California. As of March 2023, 
+                Apple is the world's largest company by market capitalization, and with US$394.3 billion the largest technology company by 2022 revenue
+            </P><br><br>
+        </div>
+        <div class="certification1">
+        <div class="single-certification-container1">
+            <h1>Langauges</h1><br>
+            <div class="langauge">
+                <strong>
+                    <b>US-</b></strong>English <span>(Native)</span>
+                <br><br>
+                <strong>
+                    <b>HS-</b></strong>German <span>(Expert)</span>
+                <br><br>
+                <strong>
+                    <b>AR-</b> </strong>French <span>(Conversational/Written)</span> 
+        </div><br>
+    </main>
+</section>
+<!-- langauge and certification ends -->
+
+<!-- footer section start -->
+<footer>
+    <div class="footer_top">
+        <div class="footer_top_left">
+            <p>&copy;2023. Designed and developed by Abdullahi Shehu Usman.</p>
+        </div>
+        <nav class="footer_top_right">
+            <a href="#experience_id"javascript:void() onclick="document.getElementById('experiences').scrollIntoView({behavior: 'smooth'});">Experiences</a>
+            <a href="#certification_id"javascript:void() onclick="document.getElementById('certifications').scrollIntoView({behavior: 'smooth'});" >Journey</a>
+            <a href="mailto:tcook@apple.com">Contact</a>
+        </nav>
+    </div>
+
+    <div class="footer_bottom">
+        <div class="footer_bottom_right">
+            <a href="javascript:void()" onclick="window.scrollTo({'top':0, 'behavior':'smooth'})">Back to top</a>
+        </div>
+    </div>
+</footer>
+<!-- footer section ends -->
+
+
+
+
+ <!--ion icons import-->
+ <script type="module"
+ src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+</script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
